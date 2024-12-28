@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
 });
 
 // Start the server
-const port = 3306git ;
+const port = 3300 ;
 server.listen(port, () => {
   console.log(`Server running at http://localhost:${port}/`);
 });

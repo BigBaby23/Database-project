@@ -17,7 +17,7 @@ try:
         cursor = connection.cursor()
 
         # Query the table
-        cursor.execute("SELECT * FROM your_table_name;")
+        cursor.execute("SELECT * FROM delivery_records;")
         rows = cursor.fetchall()
 
         # Display results
